@@ -1,0 +1,20 @@
+@import "colors";
+
+header#page-header {
+	color:          $secondary_color;
+	background:     $primary_color;
+	padding:        5px;
+	border-bottom:  5px solid darken($primary_color, $darken_percent);
+	h1 {
+		text-align:     center;
+		text-transform: uppercase;
+	}
+}
+
+footer#page-footer {
+	text-align:     center;
+	color:          $primary_color;
+	background:     $secondary_color;
+	padding:    		5px;
+	border-top:     5px solid darken($secondary_color, $darken_percent);
+}
